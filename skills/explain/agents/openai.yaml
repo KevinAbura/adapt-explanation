@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explain"
+  short_description: "Tailor explanations to any audience and expertise level"
+  default_prompt: "Use $explain to explain this clearly for a curious five-year-old."

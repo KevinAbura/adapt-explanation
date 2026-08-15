@@ -4,9 +4,11 @@
 
 Explain anything for any audience—without dumbing it down.
 
-`adapt-explanation` is an open agent skill for Codex and ChatGPT that adapts explanations and rewrites to a reader's age, expertise, role, goal, language, tone, and desired depth. It keeps the facts, uncertainty, warnings, identifiers, and technical distinctions that matter.
+`adapt-explanation` is an open agent-skill project for Codex and ChatGPT. Its installed skill is deliberately named `explain`, so it is quick to invoke while adapting explanations and rewrites to a reader's age, expertise, role, goal, language, tone, and desired depth. It keeps the facts, uncertainty, warnings, identifiers, and technical distinctions that matter.
 
-[繁體中文](README.zh-TW.md) · [Prompt gallery](examples/prompt-gallery.md) · [Skill instructions](skills/adapt-explanation/SKILL.md)
+**Project:** `adapt-explanation` · **Skill:** `explain` · **Invocation:** `$explain`
+
+[繁體中文](README.zh-TW.md) · [Prompt gallery](examples/prompt-gallery.md) · [Skill instructions](skills/explain/SKILL.md)
 
 ## Why use it?
 
@@ -24,14 +26,14 @@ A good explanation is not merely shorter. It gives the right reader the right me
 Ask Codex to install the standalone skill from this repository:
 
 ```text
-Use $skill-installer to install the adapt-explanation skill from:
-https://github.com/KevinAbura/adapt-explanation/tree/main/skills/adapt-explanation
+Use $skill-installer to install the explain skill from:
+https://github.com/KevinAbura/adapt-explanation/tree/main/skills/explain
 ```
 
 Then invoke it explicitly:
 
 ```text
-$adapt-explanation Explain OAuth to a curious five-year-old.
+$explain Explain OAuth to a curious five-year-old.
 ```
 
 Codex can also activate the skill automatically when a request matches its description.
@@ -39,22 +41,22 @@ Codex can also activate the skill automatically when a request matches its descr
 ## Try these prompts
 
 ```text
-$adapt-explanation Explain Kubernetes for a child, a backend beginner,
+$explain Explain Kubernetes for a child, a backend beginner,
 and a CTO. Keep each version under 120 words.
 ```
 
 ```text
-$adapt-explanation Rewrite this API guide for a new backend engineer.
+$explain Rewrite this API guide for a new backend engineer.
 Keep every command and JSON field exact.
 ```
 
 ```text
-$adapt-explanation Explain this architecture decision twice:
+$explain Explain this architecture decision twice:
 first for leadership, then for senior engineers.
 ```
 
 ```text
-$adapt-explanation 用繁體中文解釋 OAuth。
+$explain 用繁體中文解釋 OAuth。
 先給五歲小朋友版，再給資深後端工程師版。
 ```
 
@@ -70,7 +72,7 @@ The skill follows a small adaptation loop:
 4. Adapt vocabulary, examples, structure, and detail.
 5. Check that the result is clear, useful, and not misleading.
 
-The main workflow lives in [`SKILL.md`](skills/adapt-explanation/SKILL.md). Audience defaults live in [`audience-profiles.md`](skills/adapt-explanation/references/audience-profiles.md).
+The main workflow lives in [`SKILL.md`](skills/explain/SKILL.md). Audience defaults live in [`audience-profiles.md`](skills/explain/references/audience-profiles.md).
 
 ## Plugin-ready structure
 
@@ -79,7 +81,7 @@ This repository includes a Codex plugin manifest and can be packaged for plugin 
 ```text
 .
 ├── .codex-plugin/plugin.json
-├── skills/adapt-explanation/
+├── skills/explain/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
 │   └── references/audience-profiles.md

@@ -5,7 +5,7 @@
 Prompt:
 
 ```text
-$adapt-explanation Explain OAuth for a curious five-year-old,
+$explain Explain OAuth for a curious five-year-old,
 a new backend engineer, and an engineering executive.
 ```
 
@@ -30,7 +30,7 @@ OAuth lets customers authorize integrations without sharing passwords. It reduce
 Prompt:
 
 ```text
-$adapt-explanation Rewrite the following deployment guide for a junior engineer.
+$explain Rewrite the following deployment guide for a junior engineer.
 Keep commands, environment variables, API fields, thresholds, and warnings exact.
 ```
 
@@ -47,7 +47,7 @@ Expected behavior:
 Prompt:
 
 ```text
-$adapt-explanation Explain database indexes in three layers:
+$explain Explain database indexes in three layers:
 a one-sentence answer, a beginner mental model, and optional technical detail.
 ```
 

@@ -1,9 +1,9 @@
 ---
-name: adapt-explanation
+name: explain
 description: Adapt explanations and rewrites to a reader's age, expertise, role, goal, tone, language, and desired depth without losing essential meaning. Use for requests such as "explain like I'm five" (ELI5), child-friendly or beginner-friendly explanations, expert or executive summaries, audience-specific teaching, jargon reduction, layered explanations, and rewriting material for a different readership.
 ---
 
-# Adapt Explanation
+# Explain
 
 Make an explanation feel natural to its intended reader while preserving accuracy, uncertainty, and important limitations.
 
