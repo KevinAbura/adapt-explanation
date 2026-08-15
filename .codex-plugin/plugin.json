@@ -1,0 +1,40 @@
+{
+  "name": "adapt-explanation",
+  "version": "1.0.0",
+  "description": "Adapt explanations for any audience without losing essential meaning.",
+  "author": {
+    "name": "Kevin Abura",
+    "url": "https://github.com/KevinAbura"
+  },
+  "homepage": "https://github.com/KevinAbura/adapt-explanation",
+  "repository": "https://github.com/KevinAbura/adapt-explanation",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "codex",
+    "eli5",
+    "education",
+    "writing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Adapt Explanation",
+    "shortDescription": "Explain anything for any audience.",
+    "longDescription": "Adapt explanations and rewrites to a reader's age, expertise, role, goal, language, tone, and desired depth without losing important facts or warnings.",
+    "developerName": "Kevin Abura",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/KevinAbura/adapt-explanation",
+    "defaultPrompt": [
+      "Explain OAuth to a curious five-year-old.",
+      "Rewrite this API guide for a backend beginner.",
+      "Give executive and engineer versions of this decision."
+    ],
+    "brandColor": "#6366F1",
+    "screenshots": [
+      "./assets/social-preview.png"
+    ]
+  }
+}
