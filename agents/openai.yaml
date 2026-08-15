@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adapt Explanation"
+  short_description: "Tailor explanations to any audience and expertise level"
+  default_prompt: "Use $adapt-explanation to explain this clearly for a curious five-year-old."
