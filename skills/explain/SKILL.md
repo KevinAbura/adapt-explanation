@@ -1,6 +1,6 @@
 ---
 name: explain
-description: Adapt explanations and rewrites to a reader's age, expertise, role, goal, tone, language, and desired depth without losing essential meaning. Use for requests such as "explain like I'm five" (ELI5), child-friendly or beginner-friendly explanations, expert or executive summaries, audience-specific teaching, jargon reduction, layered explanations, and rewriting material for a different readership.
+description: Adapt explanations and rewrites to a reader's age, expertise, role, goal, tone, language, and depth without losing accuracy. Use for ELI5, beginner, expert, executive, or audience-specific writing.
 ---
 
 # Explain
